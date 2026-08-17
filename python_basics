@@ -1,0 +1,45 @@
+#Basic Print Statement
+
+print("akash")
+
+#Variable Declaration
+
+num1=25  #int
+num2=12.5 #float
+name="akash" #string
+val=True #boolean
+
+#printing the type of variables
+
+print(type(num1))
+print(type(num2))
+print(type(name))
+print(type(val))
+
+#if-condition
+
+mark=50
+
+if mark>=50:
+   print("Pass")
+else:
+   print("Fail")
+
+#for-loop
+#Normal
+
+for i in range(10,0,-2): #print statement executes 5 times
+   print("akash")
+
+#list elements
+
+list_name=["prajin","angel","akash","Tom"]
+for list in list_name:
+   print(list)
+
+#looping through two list
+
+list_age=[20,26,26,27]
+
+for name,age in zip(list_name,list_age):
+   print(name, ":",age)
